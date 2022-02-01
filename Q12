@@ -1,0 +1,22 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+  	string phrase = "God Bless Kenya";
+  	int limit=25;
+  	int i = 1;
+    for (i = 1; i <= limit; i++) {
+    	Console.WriteLine(phrase);
+    }
+    int j =1;
+	do {
+		Console.WriteLine(phrase);
+        j++;
+    } while(j <= limit );
+    int k = 1;
+    while(k <=limit){
+    	Console.WriteLine(phrase);
+    	k++;
+    }
+  }
+}
